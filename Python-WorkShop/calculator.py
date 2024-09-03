@@ -15,3 +15,21 @@ print("Prod of two numbers",prod_of_num)
 
 div_of_num = num1 /  num2
 print("Div of two numbers",div_of_num)
+
+rem_of_num = num1 %  num2
+print("Div of two numbers",rem_of_num)
+
+choice = input("Enter the operations: (Options + , - , * , / , %) ")
+
+if choice == "+":
+    print("addition: ",sum_of_num)
+elif choice == "-":
+    print("substraction: ",diff_of_num)
+elif choice == "*":
+    print("multiplication: ",prod_of_num)
+elif choice == "/":
+    print("division: ",div_of_num)
+elif choice == "%":
+    print("modulus: ",rem_of_num)
+else:
+    print("Invalid choice")
